@@ -2,17 +2,17 @@
 // import './App.css';
 
 import React, { Component } from "react";
-import RollDice from "./RollDice";
+import FormList from "./FormList";
+
 
 class App extends Component {
   render() {
     return (
       <div>
-        <RollDice />
+        <FormList/>
       </div>
     )
   }
-  
 }
 
 export default App;
